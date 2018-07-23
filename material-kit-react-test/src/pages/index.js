@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
-import Button from 'components/CustomButtons/Button.jsx';
+import Button from '../components/CustomButtons/Button.jsx';
 
 const IndexPage = () => (
   <div>
