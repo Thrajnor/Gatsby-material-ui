@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 
 // depo for vanila button V
 // import Button from '@material-ui/core/Button';
