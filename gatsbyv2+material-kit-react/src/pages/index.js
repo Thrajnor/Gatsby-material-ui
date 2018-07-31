@@ -1,7 +1,12 @@
 import React from 'react'
 import { Link } from 'gatsby'
+
+// depo for vanila button V
 // import Button from '@material-ui/core/Button';
+
+// depo for material-kit-react
 import Button from '../components/CustomButtons/Button.jsx';
+
 import { withStyles } from '@material-ui/core/styles';
 import withRoot from '../withRoot';
 
@@ -16,11 +21,11 @@ const styles = theme => ({
 
 const IndexPage = () => (
   <Layout>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
+    <h1>Hi Czapel!</h1>
+    <p>Welcome to your new Gatsby site which is using features form your favorite material-kit-react.</p>
     <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-    {/* <Button variant="contained" color="secondary" >Any button</Button> */}
+    {/* This is vanilla @material-ui/core button
+     <Button variant="contained" color="secondary" >Any button</Button> */}
     <Button type="button" color="rose" >Your Material-kit-react button!</Button>
   </Layout>
 )
