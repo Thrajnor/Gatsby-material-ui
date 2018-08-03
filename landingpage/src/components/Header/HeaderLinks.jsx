@@ -59,7 +59,7 @@ function HeaderLinks({ ...props }) {
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
-          placement={window.innerWidth > 959 ? "top" : "left"}
+          placement={window ? (window.innerWidth > 959 ? "top" : "left") : top}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
