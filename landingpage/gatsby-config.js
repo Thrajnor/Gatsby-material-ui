@@ -2,7 +2,7 @@
 const path = require('path')
 
 module.exports = {
-  pathPrefix: `/project-name`,
+  pathPrefix: `/Gatsby-material-ui/`,
   siteMetadata: {
     title: 'Gatsby Default Starter',
   },
