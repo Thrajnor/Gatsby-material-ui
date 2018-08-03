@@ -22,6 +22,8 @@ import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
 
+import "assets/scss/material-kit-react.css?v=1.1.0";
+
 const dashboardRoutes = [];
 
 class LandingPage extends React.Component {
@@ -37,7 +39,7 @@ class LandingPage extends React.Component {
           fixed
           changeColorOnScroll={{
             height: 10000,
-            color: "black"
+            color: "dark"
           }}
           {...rest}
         />
