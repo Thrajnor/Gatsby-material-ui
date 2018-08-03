@@ -18,6 +18,8 @@ import Button from "components/CustomButtons/Button.jsx";
 
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
+let window = undefined
+
 function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
@@ -59,7 +61,7 @@ function HeaderLinks({ ...props }) {
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
-          placement={window ? (window.innerWidth > 959 ? "top" : "left") : top}
+          placement={window ? (window.innerWidth > 959 ? "top" : "left") : 'top'}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
