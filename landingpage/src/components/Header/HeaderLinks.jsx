@@ -18,8 +18,6 @@ import Button from "components/CustomButtons/Button.jsx";
 
 import headerLinksStyle from "assets/jss/material-kit-react/components/headerLinksStyle.jsx";
 
-let window = undefined
-
 function HeaderLinks({ ...props }) {
   const { classes } = props;
   return (
@@ -34,7 +32,7 @@ function HeaderLinks({ ...props }) {
           }}
           buttonIcon={Apps}
           dropdownList={[
-            <Link to="/Components/Components" className={classes.dropdownLink}>
+            <Link to="/" className={classes.dropdownLink}>
               All components
             </Link>,
             <a
@@ -61,7 +59,7 @@ function HeaderLinks({ ...props }) {
         <Tooltip
           id="instagram-twitter"
           title="Follow us on twitter"
-          placement={window ? (window.innerWidth > 959 ? "top" : "left") : 'top'}
+          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
@@ -78,7 +76,7 @@ function HeaderLinks({ ...props }) {
         <Tooltip
           id="instagram-facebook"
           title="Follow us on facebook"
-          placement={window.innerWidth > 959 ? "top" : "left"}
+          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
@@ -95,7 +93,7 @@ function HeaderLinks({ ...props }) {
         <Tooltip
           id="instagram-tooltip"
           title="Follow us on instagram"
-          placement={window.innerWidth > 959 ? "top" : "left"}
+          placement={typeof window !== 'undefined' && window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <Button
