@@ -22,7 +22,7 @@ import ProductSection from "./Sections/ProductSection.jsx";
 import TeamSection from "./Sections/TeamSection.jsx";
 import WorkSection from "./Sections/WorkSection.jsx";
 
-import "assets/scss/material-kit-react.css?v=1.1.0";
+import "assets/scss/material-kit-react.scss";
 
 const dashboardRoutes = [];
 

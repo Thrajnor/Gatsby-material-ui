@@ -32,7 +32,7 @@ import work5 from "assets/img/examples/clem-onojegaw.jpg";
 
 import profilePageStyle from "assets/jss/material-kit-react/views/profilePage.jsx";
 
-import "assets/scss/material-kit-react.css?v=1.1.0";
+import "assets/scss/material-kit-react.scss";
 
 class ProfilePage extends React.Component {
   render() {

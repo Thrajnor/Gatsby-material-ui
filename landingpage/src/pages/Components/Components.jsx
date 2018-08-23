@@ -30,7 +30,7 @@ import SectionDownload from "./Sections/SectionDownload.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
-import "assets/scss/material-kit-react.css?v=1.1.0";
+import "assets/scss/material-kit-react.scss";
 
 class Components extends React.Component {
   render() {
