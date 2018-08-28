@@ -8,6 +8,7 @@
     "@material-ui/icons": "1.0.0",
     "classnames": "^2.2.6",
     "gatsby": "next",
+    "gatsby-plugin-jss": "canary",
     "gatsby-plugin-react-helmet": "next",
     "gatsby-plugin-resolve-src": "2.0.0-beta.1",
     "html-encoding-sniffer": "^1.0.2",

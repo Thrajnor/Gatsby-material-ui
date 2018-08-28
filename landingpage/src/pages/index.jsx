@@ -1,5 +1,6 @@
 import React from "react";
 import LandingPage from "pages/LandingPage/LandingPage";
+import withRoot from '../withRoot';
 
 class Index extends React.Component {
   render() {
@@ -9,4 +10,4 @@ class Index extends React.Component {
   }
 }
 
-export default Index;
+export default withRoot(Index);
